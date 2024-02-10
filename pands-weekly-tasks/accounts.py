@@ -11,8 +11,15 @@
 # not work. Negative indexing will work and research to find this solution to the problem was done with assistance from the pointer
 # (URL: https://thispointer.com/python-how-to-get-last-n-characters-in-a-string/)
 
+# The second problem was how to change the number of X's returned with a variable account number. This was done with a lot of trail and 
+# error and the best way I've found to do it was to get to length of the input string and take 4 away from it. This returns the number of 
+# X's to be placed before the last few digits. I coud then used that number to multiply the number of X's required so that now I can return
+# any account number of variable length and the last four digts will be returned by negative indexing and the number of X's is returned 
+# using a calculation
 
 input_account_number2 = str(input("Please enter an account number: "))
 last_4_characters = input_account_number2[-4:]
-print(f"XXXXXX{last_4_characters}")
+length_of_account_num = len(input_account_number2) - 4 
+number_of_X = length_of_account_num * 'X'
+print(f"{number_of_X}{last_4_characters}")
 

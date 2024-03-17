@@ -24,11 +24,11 @@ def squareroot(num, precision):
     >>>The approximate square root of 25 is 5.000000000016778 with a precision of 0.0001
     '''
 
-    # Start with initial guess of half the input value
+    # initial guess of half value to have square root completed
     apxroot = num/2
     n = 0
     while abs(num - apxroot**2) > precision:
-        if n == 0: # I like to be grammatically correct :smiley:
+        if n == 0: 
             print("{} iteration,  guess is {}".format(n+1, round(apxroot,2)))
         else:
             print("{} iterations, guess is {}".format(n+1, round(apxroot,2)))

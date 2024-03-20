@@ -1,6 +1,8 @@
 # function_xsquared.py
 # This program plots the function y = x^2 using matplotlib
 
+# Author Ellen McGrory
+
 import matplotlib.pyplot as plt
 import numpy as np
 

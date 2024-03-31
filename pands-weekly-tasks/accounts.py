@@ -7,7 +7,7 @@
 # print(f"XXXXXX{input_account_number[6:10]}")
 
 
-# The program is rewritten to get the last 4 digits of an account number of differing length so the abolve indexing will 
+# The above program is rewritten to get the last 4 digits of an account number of differing length so the abolve indexing will 
 # not work. Negative indexing will work and research to find this solution to the problem was done with assistance from the pointer
 # (URL: https://thispointer.com/python-how-to-get-last-n-characters-in-a-string/)
 

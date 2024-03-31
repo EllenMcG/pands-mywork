@@ -9,7 +9,7 @@
 # a value of 5 or 6 (Saturday or Sunday)
 
 # The SheCodes website was useful in order to get background to the datetime.today().weekday() functionality 
-# URL: https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python#:~:text=date%20using%20datetime.-,datetime.,)%20to%206%20(Sunday)
+# URL: https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python#:~:text=date%20using%20datetime.-,datetime.,%20to%206%20(Sunday
 
 import datetime
 

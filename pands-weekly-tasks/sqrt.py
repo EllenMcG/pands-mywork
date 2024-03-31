@@ -8,12 +8,12 @@
 
 
 
-# This topic was researched using the code repo on Github URL: https://github.com/ahartz1/approximate-square-root/blob/master/square_root.py
+# This topic was researched using the code repo on this Github repo URL: https://github.com/ahartz1/approximate-square-root/blob/master/square_root.py
 # Backgound to method URL: https://python.pages.doc.ic.ac.uk/2021/lessons/lesson04/04-applied/06-newton.html
 
 
 
-def squareroot(num, precision):
+def sqrt(num, precision):
     '''
     Finds the square root to a pre-defined minimum precision using Newton's method
     
@@ -38,5 +38,5 @@ def squareroot(num, precision):
 
 num=25
 precision = 0.0001
-a = squareroot(num,precision)
+a = sqrt(num,precision)
 print(f"The approximate square root of {num} is {a} with a precision of {precision}") 
